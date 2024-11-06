@@ -8,6 +8,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
+
 export class AppComponent {
-  title = 'TP1';
+  title = 'Séance TP1';
+  summary = 'Prise en main d\'Angular, première application';
 }
