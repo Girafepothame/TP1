@@ -13,4 +13,5 @@ import { EtudiantComponent } from "./etudiant/etudiant.component";
 export class AppComponent {
   title = 'Séance TP1';
   summary = 'Prise en main d\'Angular, première application';
+  estAuth = false;
 }
