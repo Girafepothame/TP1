@@ -11,7 +11,12 @@ import { EtudiantComponent } from "./etudiant/etudiant.component";
 })
 
 export class AppComponent {
+  constructor() {
+    setTimeout(() => {
+      this.isAuth = true
+    }, 3000);
+  }
   title = 'Séance TP1';
   summary = 'Prise en main d\'Angular, première application';
-  estAuth = false;
+  isAuth = false;
 }
