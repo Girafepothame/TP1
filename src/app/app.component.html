@@ -7,10 +7,22 @@
 
   <div class="text-center">
 
-    <h1 class="">Module Champ d'applications</h1>
+    <h1 class="mt-5 mb-3">Module Champ d'applications</h1>
     <h2 class="text-success">{{ title }}</h2>
     <span class="bg-info">{{ summary }}</span>
-    <app-etudiant></app-etudiant>
+
+    <div class="m-auto mt-5 card-container col-3">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Liste étudiants</h2>
+
+          <ul class="">
+            <app-etudiant></app-etudiant>
+          </ul>
+
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
